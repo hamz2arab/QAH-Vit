@@ -1,0 +1,90 @@
+re-using pruning sweep from results/search.json
+budget 1.15x (44.8 ms): 26 candidates, best {'ratios': (0.7, 1.0, 0.5), 'mult': 8, 'gmacs': 0.897899904, 'pred_ms': 44.70359150400327, 'pred_fp32_ms': 42.38047899889352, 'val_acc_1k': 95.7}, uniform {'ratios': (0.7, 0.7, 0.7), 'mult': 1, 'gmacs': 0.820522368, 'pred_ms': 44.62270100657406, 'pred_fp32_ms': 40.52673399792184, 'val_acc_1k': 94.8}
+budget 1.25x (41.2 ms): 12 candidates, best {'ratios': (0.5, 0.7, 0.7), 'mult': 8, 'gmacs': 0.676937088, 'pred_ms': 41.0524390053979, 'pred_fp32_ms': 35.74524799705614, 'val_acc_1k': 93.4}, uniform {'ratios': (0.5, 0.5, 0.5), 'mult': 1, 'gmacs': 0.628989312, 'pred_ms': 40.17182900952321, 'pred_fp32_ms': 34.36593699871082, 'val_acc_1k': 91.3}
+budget 1.35x (38.1 ms): 5 candidates, best {'ratios': (0.4, 0.6, 0.5), 'mult': 8, 'gmacs': 0.58765248, 'pred_ms': 37.97090800435399, 'pred_fp32_ms': 32.799035500374885, 'val_acc_1k': 90.6}, uniform {'ratios': (0.4, 0.4, 0.4), 'mult': 1, 'gmacs': 0.55958016, 'pred_ms': 37.43344600570708, 'pred_fp32_ms': 32.35184299683169, 'val_acc_1k': 85.7}
+saved results/search.json
+step 25/300 loss 0.5984 lr 1.70e-05 1.7min eta 18.5min
+step 50/300 loss 0.5405 lr 1.87e-05 3.3min eta 16.7min
+step 75/300 loss 0.8511 lr 1.71e-05 5.0min eta 14.9min
+step 100/300 loss 0.5581 lr 1.50e-05 6.6min eta 13.2min
+step 125/300 loss 0.6863 lr 1.26e-05 8.2min eta 11.5min
+step 150/300 loss 0.5320 lr 1.00e-05 9.9min eta 9.9min
+step 175/300 loss 0.7332 lr 7.41e-06 11.5min eta 8.2min
+step 200/300 loss 0.5173 lr 5.00e-06 13.2min eta 6.6min
+step 225/300 loss 0.7085 lr 2.93e-06 14.8min eta 4.9min
+step 250/300 loss 0.5111 lr 1.34e-06 16.5min eta 3.3min
+step 275/300 loss 0.7186 lr 3.41e-07 18.1min eta 1.6min
+step 300/300 loss 0.6674 lr 0.00e+00 19.7min eta 0.0min
+val acc 95.20
+step 25/300 loss 0.7675 lr 1.70e-05 0.5min eta 5.4min
+step 50/300 loss 0.8844 lr 1.87e-05 1.1min eta 5.3min
+step 75/300 loss 0.7873 lr 1.71e-05 1.6min eta 4.9min
+step 100/300 loss 0.8738 lr 1.50e-05 2.2min eta 4.4min
+step 125/300 loss 0.5871 lr 1.26e-05 2.7min eta 3.8min
+step 150/300 loss 0.6164 lr 1.00e-05 3.2min eta 3.2min
+step 175/300 loss 0.5977 lr 7.41e-06 3.7min eta 2.6min
+step 200/300 loss 0.6396 lr 5.00e-06 4.2min eta 2.1min
+step 225/300 loss 0.6456 lr 2.93e-06 4.7min eta 1.6min
+step 250/300 loss 0.5081 lr 1.34e-06 5.2min eta 1.0min
+step 275/300 loss 0.6108 lr 3.41e-07 5.7min eta 0.5min
+step 300/300 loss 0.5445 lr 0.00e+00 6.2min eta 0.0min
+val acc 93.05
+step 25/300 loss 0.5757 lr 1.70e-05 1.2min eta 13.4min
+step 50/300 loss 0.5127 lr 1.87e-05 2.4min eta 12.1min
+step 75/300 loss 0.5996 lr 1.71e-05 3.7min eta 11.0min
+step 100/300 loss 0.6330 lr 1.50e-05 5.0min eta 10.1min
+step 125/300 loss 0.6665 lr 1.26e-05 6.4min eta 9.0min
+step 150/300 loss 0.5114 lr 1.00e-05 7.6min eta 7.6min
+step 175/300 loss 0.7517 lr 7.41e-06 8.8min eta 6.3min
+step 200/300 loss 0.5858 lr 5.00e-06 10.1min eta 5.0min
+step 225/300 loss 0.6854 lr 2.93e-06 11.3min eta 3.8min
+step 250/300 loss 0.5093 lr 1.34e-06 12.6min eta 2.5min
+step 275/300 loss 0.5692 lr 3.41e-07 13.8min eta 1.3min
+step 300/300 loss 0.7568 lr 0.00e+00 15.1min eta 0.0min
+val acc 94.95
+step 25/300 loss 0.6897 lr 1.70e-05 0.9min eta 10.1min
+step 50/300 loss 0.5109 lr 1.87e-05 1.9min eta 9.3min
+step 75/300 loss 0.6205 lr 1.71e-05 3.1min eta 9.2min
+step 100/300 loss 0.5972 lr 1.50e-05 4.0min eta 8.0min
+step 125/300 loss 0.8417 lr 1.26e-05 4.9min eta 6.9min
+step 150/300 loss 0.5956 lr 1.00e-05 5.8min eta 5.8min
+step 175/300 loss 0.6382 lr 7.41e-06 6.7min eta 4.8min
+step 200/300 loss 0.6607 lr 5.00e-06 7.6min eta 3.8min
+step 225/300 loss 0.8117 lr 2.93e-06 8.6min eta 2.9min
+step 250/300 loss 0.5218 lr 1.34e-06 9.5min eta 1.9min
+step 275/300 loss 0.5325 lr 3.41e-07 10.4min eta 0.9min
+step 300/300 loss 0.7639 lr 0.00e+00 11.3min eta 0.0min
+val acc 94.10
+step 25/300 loss 0.7689 lr 1.70e-05 0.8min eta 8.8min
+step 50/300 loss 0.5152 lr 1.87e-05 1.6min eta 8.1min
+step 75/300 loss 0.8751 lr 1.71e-05 2.4min eta 7.2min
+step 100/300 loss 0.9160 lr 1.50e-05 3.2min eta 6.4min
+step 125/300 loss 0.7208 lr 1.26e-05 4.0min eta 5.6min
+step 150/300 loss 0.5210 lr 1.00e-05 4.8min eta 4.8min
+step 175/300 loss 0.9462 lr 7.41e-06 5.6min eta 4.0min
+step 200/300 loss 0.7546 lr 5.00e-06 6.5min eta 3.2min
+step 225/300 loss 0.8507 lr 2.93e-06 7.3min eta 2.4min
+step 250/300 loss 0.5227 lr 1.34e-06 8.1min eta 1.6min
+step 275/300 loss 0.7888 lr 3.41e-07 8.9min eta 0.8min
+step 300/300 loss 0.8550 lr 0.00e+00 9.7min eta 0.0min
+val acc 91.70
+{'name': 'FP32 baseline', 'test_acc': 94.21, 'gmacs': 1.25349312, 'size_mb': 21.123720169067383, 'lat_b1_ms': 47.73504700006015, 'lat_b32_ms': 1194.7598989991093, 'peak_rss_mb': 906.36328125}
+{'name': 'PTQ INT8 dynamic', 'test_acc': 94.22, 'gmacs': 1.25349312, 'size_mb': 6.305910110473633, 'lat_b1_ms': 49.828028999399976, 'lat_b32_ms': 1039.4339610002135, 'peak_rss_mb': 789.76171875}
+{'name': 'PTQ INT8 static', 'test_acc': 94.16, 'gmacs': 1.25349312, 'size_mb': 6.305910110473633, 'lat_b1_ms': 52.49052050021419, 'lat_b32_ms': 1074.915264500305, 'peak_rss_mb': 789.23046875}
+{'name': 'QAT INT8 static', 'test_acc': 94.21, 'gmacs': 1.25349312, 'size_mb': 6.305910110473633, 'lat_b1_ms': 51.65612600012537, 'lat_b32_ms': 1069.383081999149, 'peak_rss_mb': 906.328125}
+{'name': 'Prune 1.25x (no FT)', 'test_acc': 91.24, 'gmacs': 0.676937088, 'size_mb': 21.123720169067383, 'lat_b1_ms': 35.940371999458876, 'lat_b32_ms': 669.6230560000913, 'peak_rss_mb': 906.48046875}
+{'name': 'Prune 1.25x + FT', 'test_acc': 92.03, 'gmacs': 0.676937088, 'size_mb': 21.123720169067383, 'lat_b1_ms': 35.57589499905589, 'lat_b32_ms': 668.5389524991479, 'peak_rss_mb': 906.625}
+{'name': 'Prune 1.25x + FT + PTQ', 'test_acc': 92.04, 'gmacs': 0.676937088, 'size_mb': 6.305910110473633, 'lat_b1_ms': 42.57240950028063, 'lat_b32_ms': 585.3688329998477, 'peak_rss_mb': 789.671875}
+{'name': 'QAH-ViT 1.15x', 'test_acc': 93.8, 'gmacs': 0.897899904, 'size_mb': 6.305910110473633, 'lat_b1_ms': 47.16640849983378, 'lat_b32_ms': 788.8637474998177, 'peak_rss_mb': 906.2421875}
+{'name': 'QAH-ViT 1.25x', 'test_acc': 92.33, 'gmacs': 0.676937088, 'size_mb': 6.305910110473633, 'lat_b1_ms': 41.806540500147094, 'lat_b32_ms': 593.0396639996616, 'peak_rss_mb': 789.8046875}
+{'name': 'QAH-ViT 1.35x', 'test_acc': 90.38, 'gmacs': 0.58765248, 'size_mb': 6.305910110473633, 'lat_b1_ms': 39.10984950016427, 'lat_b32_ms': 516.1576904993126, 'peak_rss_mb': 790.0390625}
+{'name': 'QAH-ViT 1.25x (dyn deploy)', 'test_acc': 92.29, 'gmacs': 0.676937088, 'size_mb': 6.305910110473633, 'lat_b1_ms': 39.560943501783186, 'lat_b32_ms': 577.3323994999373, 'peak_rss_mb': 789.0703125}
+wrote plots/fig1_pruning_methods.png
+wrote plots/fig4_hw_search.png
+wrote plots/fig2_latency_lut.png
+wrote plots/fig3_lut_staircase.png
+wrote plots/fig5_accuracy_vs_latency.png
+wrote plots/fig6_all_metrics.png
+wrote plots/fig7_lut_prediction.png
+wrote plots/fig8_training.png
+wrote plots/fig9_token_visualization.png

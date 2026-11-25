@@ -1,0 +1,6 @@
+# Dataset (downloaded automatically by torchvision)
+data/
+
+# Python
+__pycache__/
+*.pyc

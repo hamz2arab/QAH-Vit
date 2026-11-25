@@ -1,0 +1,5 @@
+re-using pruning sweep from results/search.json
+budget 1.15x (44.8 ms): 26 candidates, best {'ratios': (0.7, 1.0, 0.5), 'mult': 8, 'gmacs': 0.897899904, 'pred_ms': 44.70359150400327, 'pred_fp32_ms': 42.38047899889352, 'val_acc_1k': 95.7}, uniform {'ratios': (0.7, 0.7, 0.7), 'mult': 1, 'gmacs': 0.820522368, 'pred_ms': 44.62270100657406, 'pred_fp32_ms': 40.52673399792184, 'val_acc_1k': 94.8}
+budget 1.25x (41.2 ms): 12 candidates, best {'ratios': (0.5, 0.7, 0.7), 'mult': 8, 'gmacs': 0.676937088, 'pred_ms': 41.0524390053979, 'pred_fp32_ms': 35.74524799705614, 'val_acc_1k': 93.4}, uniform {'ratios': (0.5, 0.5, 0.5), 'mult': 1, 'gmacs': 0.628989312, 'pred_ms': 40.17182900952321, 'pred_fp32_ms': 34.36593699871082, 'val_acc_1k': 91.3}
+budget 1.35x (38.1 ms): 5 candidates, best {'ratios': (0.4, 0.6, 0.5), 'mult': 8, 'gmacs': 0.58765248, 'pred_ms': 37.97090800435399, 'pred_fp32_ms': 32.799035500374885, 'val_acc_1k': 90.6}, uniform {'ratios': (0.4, 0.4, 0.4), 'mult': 1, 'gmacs': 0.55958016, 'pred_ms': 37.43344600570708, 'pred_fp32_ms': 32.35184299683169, 'val_acc_1k': 85.7}
+saved results/search.json

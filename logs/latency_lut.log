@@ -1,0 +1,4 @@
+fp32 attn@197 1.86 mlp@197 1.92 e2e 51.5 ms
+int8_dyn attn@197 2.05 mlp@197 1.86 e2e 51.1 ms
+int8_static attn@197 2.11 mlp@197 1.84 e2e 51.9 ms
+saved results/latency_lut.json

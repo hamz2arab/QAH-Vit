@@ -1,0 +1,13 @@
+step 25/300 loss 0.6897 lr 1.70e-05 0.9min eta 10.1min
+step 50/300 loss 0.5109 lr 1.87e-05 1.9min eta 9.3min
+step 75/300 loss 0.6205 lr 1.71e-05 3.1min eta 9.2min
+step 100/300 loss 0.5972 lr 1.50e-05 4.0min eta 8.0min
+step 125/300 loss 0.8417 lr 1.26e-05 4.9min eta 6.9min
+step 150/300 loss 0.5956 lr 1.00e-05 5.8min eta 5.8min
+step 175/300 loss 0.6382 lr 7.41e-06 6.7min eta 4.8min
+step 200/300 loss 0.6607 lr 5.00e-06 7.6min eta 3.8min
+step 225/300 loss 0.8117 lr 2.93e-06 8.6min eta 2.9min
+step 250/300 loss 0.5218 lr 1.34e-06 9.5min eta 1.9min
+step 275/300 loss 0.5325 lr 3.41e-07 10.4min eta 0.9min
+step 300/300 loss 0.7639 lr 0.00e+00 11.3min eta 0.0min
+val acc 94.10
